@@ -31,7 +31,7 @@ nav ul li a {
 
 main {
     width: 80%;
-    max-width: 900px; /* Prevents it from getting too wide */
+    max-width: 700px; /* Prevents it from getting too wide */
     margin: 40px auto; /* Centers content */
     padding: 20px;
     background: white;
