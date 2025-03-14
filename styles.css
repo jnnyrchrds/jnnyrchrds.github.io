@@ -4,35 +4,47 @@ body {
     padding: 0;
     background-color: #f9f9f9;
 }
+
 header {
     background-color: #2c3e50;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
+
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+
 main {
+    width: 80%;
+    max-width: 900px; /* Prevents it from getting too wide */
+    margin: 40px auto; /* Centers content */
     padding: 20px;
-    text-align: center;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
+
 footer {
     text-align: center;
     padding: 10px;
     background-color: #2c3e50;
     color: white;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
