@@ -32,7 +32,7 @@ nav ul li a {
 .main-container {
     width: 700px; /* Fixed width for content */
     margin: 40px auto;
-    padding: 20px;
+    padding: 80px;
     background: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
